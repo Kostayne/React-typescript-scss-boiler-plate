@@ -22,7 +22,7 @@ module.exports = {
                 exclude: [/node_modules/],
                 use: ["babel-loader"],
                 resolve: {
-                    extensions: [".js", ".jsx", ".tx", ".tsx"]
+                    extensions: [".js", ".jsx", ".ts", ".tsx"]
                 }
             },
 
