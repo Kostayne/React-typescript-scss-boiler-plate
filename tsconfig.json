@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "build",
+        "noImplicitAny": true,
+        "jsx": "react",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "rootDirs": ["src/components", "src/pages"],
+        "paths": {
+            "$c/*": ["./src/components/*"],
+            "$p/*": ["./src/pages/*"],
+            "$u/*": ["./src/utils/*"]
+        }
+    }
+}
